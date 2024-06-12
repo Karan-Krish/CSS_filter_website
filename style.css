@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.h1 {
+    font-size: 50px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    text-shadow: 2px 2px 2px aqua;
+    color: white;
+    margin-top: 20px;
+}
+
+#style {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: 100% 100%;
+
+
+
+margin-left: 450px;
+
+
+    justify-content: center;
+
+    background-color: white;
+    box-shadow: 9px 9px 4px gray;
+    border: 5px ridge rgb(0, 255, 221);
+}
+
+
+
+
+
+
+
+
+.p {
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+}
+
+/* -----------------------------------------Small screen------------------------------------------------------------------------------ */
+@media only screen and (max-width:500px) {
+
+
+    .h1 {
+        font-size: 35px;
+        background-color: black;
+        text-align: center;
+        text-shadow: 2px 2px 2px aqua;
+        color: white;
+        margin-top: 20px;
+    }
+
+    #style {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: white;
+        box-shadow: 9px 9px 4px gray;
+        border: 5px ridge rgb(0, 255, 221);
+        height: 200px;
+    }
+
+
+
+    #styleA {
+        height: 200px;
+        align-items: center;
+        margin-left: 75px;
+        margin-top: 15px;
+    }
+
+
+    .p {
+        font-size: 20px;
+        color: gray;
+        text-align: center;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------none----------------------------------------------------- */
+
+
+.none {
+    filter: none;
+}
+
+.Note {
+    font-size: 22px;
+    color: rgb(0, 255, 221);
+    text-shadow: 2px 2px 2px rgb(229, 255, 0);
+    text-align: center;
+}
+
+/* <!-------------------------------------blur----------------------------------------------------> */
+
+.blur {
+
+    filter: blur(4px);
+
+}
+
+
+/* <!-------------------------------------bright----------------------------------------------------> */
+
+
+.bright {
+
+    filter: brightness(150%);
+
+}
+
+/* <!-------------------------------------contrast----------------------------------------------------> */
+
+
+.contrast {
+
+    filter: contrast(250%);
+
+
+}
+
+/* <!-------------------------------------drop-shadow----------------------------------------------------> */
+
+
+.drop-shadow {
+    filter: drop-shadow(9px 9px 9px aqua);
+
+
+}
+
+/* <!-------------------------------------grayscale----------------------------------------------------> */
+
+.grayscale {
+    filter: grayscale(99%);
+
+
+}
+
+/* <!-------------------------------------huerotate----------------------------------------------------> */
+
+.huerotate {
+
+    filter: hue-rotate(90deg);
+
+}
+
+/* <!-------------------------------------invert----------------------------------------------------> */
+
+.invert {
+    filter: invert(100%);
+
+}
+
+/* <!-------------------------------------opacity----------------------------------------------------> */
+
+.opacity {
+    filter: opacity(44%);
+
+}
+
+/* <!-------------------------------------saturate----------------------------------------------------> */
+.saturate {
+
+    filter: saturate(800%);
+
+
+}
+
+/* <!-------------------------------------sepia----------------------------------------------------> */
+
+.sepia {
+    filter: sepia(99%);
+
+
+}
+
+/* <!-------------------------------------url----------------------------------------------------> */
+
+
+/* .url{
+
+    
+
+
+}
+ */
+
+
+/* ----------------------------------------------------------All filter----------------------------------- */
+.all {
+    display: inline;
+}
+
+.styleA {
+
+    display: inline;
+}
+
+/* ---------------------------------------------Practic-------------------------------------------------------------- */

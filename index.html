@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>filter</title>
+</head>
+
+<body>
+
+
+<div class="header">
+    <nav>
+        <ul>
+            <li > <h1>Click me for other filter : </h1><a href="example.html" class="Av">It's use</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+<style>
+    .Av{
+        font-size: 40px;
+    }
+    ul{
+        text-align: center;
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-------------------------------------------None------------------------------------------------>
+
+    <div class="l A">
+        <h1 class="h1">none filter</h1>
+        <img src="img/you.png" alt="you" class="none" id="style">
+        <p class="p">none Default value. Specifies no effects </p>
+
+    </div>
+
+    <!-------------------------------------blur---------------------------------------------------->
+
+    <div class="l B">
+        <h1 class="h1">blur filter</h1>
+        <img src="img/you.png" alt="you" class="blur" id="style">
+        <p class="p">blur(px) Applies a blur effect to the image. A larger value will create more blur.
+
+            If no value is specified, 0 is used. </p>
+
+    </div>
+    <!-------------------------------------bright---------------------------------------------------->
+
+    <div class="1 C">
+        <h1 class="h1">bright filter</h1>
+        <img src="img/you.png" alt="you" class="bright" id="style">
+        <p class="p">brightness(%) Adjusts the brightness of the image.
+
+            0% will make the image completely black.
+            100% (1) is default and represents the original image.
+            Values over 100% will provide brighter results. </p>
+
+
+    </div>
+
+    <!-------------------------------------contrast---------------------------------------------------->
+
+    <div class="1 D">
+        <h1 class="h1">contrast filter</h1>
+        <img src="img/you.png" alt="you" class="contrast" id="style">
+        <p class="p">contrast(%) Adjusts the contrast of the
+
+            0% will make the image completely black.
+            100% (1) is default, and represents the original image.
+            Values over 100% will provide results with more contrast. </p>
+
+
+    </div>
+
+
+    <!-------------------------------------drop-shadow---------------------------------------------------->
+
+    <div class="1 E">
+        <h1 class="h1">drop-shadow filter</h1>
+        <img src="img/you.png" alt="you" class="drop-shadow" id="style">
+        <p class="p">drop-shadow(h-shadow v-shadow blur spread color) Applies a drop shadow effect to the image.
+        </p>
+
+
+    </div>
+
+
+
+    <!-------------------------------------grayscale---------------------------------------------------->
+
+    <div class="1 F">
+        <h1 class="h1">grayscale filter</h1>
+        <img src="img/you.png" alt="you" class="grayscale" id="style">
+        <p class="p"> grayscale(%) Converts the image to grayscale.
+
+            0% (0) is default and represents the original
+            100% will make the image completely gray (used for black and white images). </p>
+        <p class="Note"> Note: Negative values are not allowed. </p>
+
+
+    </div>
+
+
+
+    <!-------------------------------------huerotate---------------------------------------------------->
+
+    <div class="1 G">
+        <h1 class="h1">huerotate filter</h1>
+        <img src="img/you.png" alt="you" class="huerotate" id="style">
+        <p class="p"> hue-rotate(deg) Applies a hue rotation on the image. The value defines the number of degrees
+            around the color circle the image samples will be adjusted. 0deg is default, and represents the
+            original
+            image. </p>
+        <p class="Note">Note: Maximum value is 360deg. </p>
+
+
+    </div>
+
+
+
+    <!-------------------------------------invert---------------------------------------------------->
+
+    <div class="H">
+        <h1 class="h1">invert filter</h1>
+        <img src="img/you.png" alt="you" class="invert" id="style">
+        <p class="p"> invert(%) Inverts the samples in the ima
+
+            0% (0) is default and represents the original ima
+            100% will make the image completely invert </p>
+        <p class="Note"> </p>
+
+
+    </div>
+
+
+
+    <!-------------------------------------opacity---------------------------------------------------->
+
+    <div class="I">
+        <h1 class="h1">opacity filter</h1>
+        <img src="img/you.png" alt="you" class="opacity" id="style">
+        <p class="p"> Sets the opacity level for the image. The opacity-level describes the transparency-level,
+            where:
+
+            0% is completely transparent.
+            100% (1) is default and represents the original image (no transparency).
+        </p>
+
+        <p class="Note">Note: Negative values are not allowed. </p>
+
+    </div>
+
+
+    <!-------------------------------------saturate---------------------------------------------------->
+
+    <div class="J">
+        <h1 class="h1">saturate filter</h1>
+        <img src="img/you.png" alt="you" class="saturate" id="style">
+        <p class="p">saturate(%) Saturates the image.
+
+            0% (0) will make the image completely un-saturated.b
+            100% is default and represents the original image.
+            Values over 100% provides super-saturated results. </p>
+        <p class="Note"> Note: Negative values are not allowed.</p>
+
+
+    </div>
+
+
+    <!-------------------------------------sepia---------------------------------------------------->
+
+    <div class="K">
+        <h1 class="h1">sepia filter</h1>
+        <img src="img/you.png" alt="you" class="sepia" id="style">
+        <p class="p"> sepia(%) Converts the image to sepia.
+
+            0% (0) is default and represents the original image.
+            100% will make the image completely sepia.
+        </p>
+
+        <p class="Note">Note: Negative values are not allowed. </p>
+
+    </div>
+
+
+    <!-------------------------------------url---------------------------------------------------->
+
+    <div class="L">
+        <h1 class="h1">url filter</h1>
+        <img src="img/you.png" alt="you" class="url" id="style">
+        <p class="p"> url() The url() function takes the location of an XML file that specifies an SVG filter, <br>and
+            may include an anchor to a specific filter element. <br> Example:
+
+            filter: url(svg-url#element-id) <br> </p>
+
+
+    </div>
+    <br> <br><br><br>
+
+
+    <hr>
+
+    <hr>
+
+
+    <hr>
+    <hr>
+    <div class="all">
+        <h1 class="h1"> Here all filter use on this img</h1>
+        <img src="img/you.png" alt="you" class="none" id="styleA">
+        <img src="img/you.png" alt="you" class="blur" id="styleA">
+        <img src="img/you.png" alt="you" class="bright" id="styleA">
+        <img src="img/you.png" alt="you" class="contrast" id="styleA">
+        <img src="img/you.png" alt="you" class="drop-shadow" id="styleA">
+        <img src="img/you.png" alt="you" class="grayscale" id="styleA">
+        <img src="img/you.png" alt="you" class="huerotate" id="styleA">
+        <img src="img/you.png" alt="you" class="invert" id="styleA">
+        <img src="img/you.png" alt="you" class="opacity" id="styleA">
+        <img src="img/you.png" alt="you" class="saturate" id="styleA">
+        <img src="img/you.png" alt="you" class="sepia" id="styleA">
+        <img src="img/you.png" alt="you" class="url" id="styleA">
+
+
+
+
+
+    </div>
+    <!-------------------------------------------------Practic------------------------------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
